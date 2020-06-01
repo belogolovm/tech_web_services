@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.maxart.wst</groupId>
+    <artifactId>wst</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>lab1</module>
+        <module>lab1j2ee</module>
+        <module>lab2</module>
+        <module>lab3</module>
+        <module>lab4</module>
+        <module>lab4j2ee</module>
+        <module>lab5</module>
+        <module>lab6</module>
+        <module>lab7</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>wst</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.2-1003-jdbc4</version>
+        </dependency>
+    </dependencies>
+</project>
